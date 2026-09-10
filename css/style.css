@@ -38,3 +38,10 @@ body {
 .nav-links a:hover {
   color: #c96b4b;
 }
+
+.hero {
+  min-height: 600px;
+  padding: 90px 8%;
+  align-items: center;
+  background: linear-gradient(135deg, #f8e8df, #f5c8b5);
+}
