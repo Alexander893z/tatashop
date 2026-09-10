@@ -16,3 +16,25 @@ body {
   padding: 24px 8%;
   background-color: #fff;
 }
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #222;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #c96b4b;
+}
