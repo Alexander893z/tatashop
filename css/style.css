@@ -8,3 +8,11 @@ body {
   color: #222;
   background-color: #f8f5f2;
 }
+
+.navbar { 
+  display: flex;
+  alin-items: center;
+  justify-content: space-between;
+  padding: 24px 8%;
+  background-color: #fff;
+}
