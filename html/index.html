@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TaTaShop: ropa y accesorios con estilo.">
+  <title>TaTaShop | Ropa y accesorios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero" id="inicio">
+    <nav class="navbar">
+      <a class="logo" href="#inicio">TaTaShop</a>
+
+      <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contacto">Contacto</a>
+        <button id="cartButton" type="button">
+          Carrito (<span id="cartCount">0</span>)
+        </button>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Nueva colección</p>
+      <h1>Tu estilo comienza aquí</h1>
+      <p>
+        Descubre ropa y accesorios seleccionados para expresar tu personalidad.
+      </p>
+      <a class="button" href="#catalogo">Ver catálogo</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="catalog-section" id="catalogo">
+      <p class="eyebrow">TaTaShop</p>
+      <h2>Productos destacados</h2>
+
+      <div class="products">
+        <article class="product-card">
+          <div class="product-image">Sudadera</div>
+          <h3>Sudadera Essential</h3>
+          <p>Sudadera azul de estilo cómodo y moderno.</p>
+          <strong>$599.00</strong>
+          <button class="add-button" type="button">Agregar al carrito</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">Pantalón</div>
+          <h3>Pantalón Urban</h3>
+          <p>Pantalón versátil para un look urbano.</p>
+          <strong>$749.00</strong>
+          <button class="add-button" type="button">Agregar al carrito</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">Playera</div>
+          <h3>Playera Classic</h3>
+          <p>Playera básica para combinar con cualquier estilo.</p>
+          <strong>$299.00</strong>
+          <button class="add-button" type="button">Agregar al carrito</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">Accesorio</div>
+          <h3>Bolsa Minimal</h3>
+          <p>Accesorio elegante para complementar tu outfit.</p>
+          <strong>$449.00</strong>
+          <button class="add-button" type="button">Agregar al carrito</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">Chaqueta</div>
+          <h3>Chaqueta Street</h3>
+          <p>Chaqueta ligera para un look casual y moderno.</p>
+          <strong>$899.00</strong>
+          <button class="add-button" type="button">Agregar al carrito</button>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <p>© 2026 TaTaShop · Ropa y accesorios</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
