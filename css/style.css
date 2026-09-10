@@ -11,7 +11,7 @@ body {
 
 .navbar { 
   display: flex;
-  alin-items: center;
+  align-items: center;
   justify-content: space-between;
   padding: 24px 8%;
   background-color: #fff;
@@ -44,4 +44,16 @@ body {
   padding: 90px 8%;
   align-items: center;
   background: linear-gradient(135deg, #f8e8df, #f5c8b5);
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.eyebrow {
+  color: #c96b4b;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
