@@ -9,7 +9,7 @@ body {
   background-color: #f8fafc;
 }
 
-.navbar { 
+.navbar { /*aqui organiza el logo y los enlaces en una misma fila*/
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,7 +41,7 @@ body {
 
 .hero {
   min-height: 600px;
-  padding: 90px 8%;
+  padding: 90px 8%; /*crea espacio dentro del contenido*/
   align-items: center;
   background: linear-gradient(135deg, #ede9fe, #bfdbfe);
 }
@@ -73,17 +73,17 @@ body {
 .button {
   display: inline-block;
   margin-top: 20px;
-  padding: 14px 24px;
+  padding: 14px 24px; /*lo mismo pero en el botón*/
   border-radius: 8px;
   color: white;
   background-color: #172554;
   font-weight: bold;
   text-decoration: none;
 }
-
+/*esta cosa cambia el botón a azul claro cuando paso el raton sobre el boton*/
 .button:hover {
   background-color: #3b82f6;
 }
 
-/*YA ME DIO MUCHA FLOJERA, PASEME CON 10 PROFAAAAAA*/
+/*Que buena rola la de "pensandote-Diana Meril"*/
 
