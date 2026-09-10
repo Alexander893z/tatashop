@@ -70,3 +70,20 @@ body {
   font-size: 18px;
 }
 
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 24px;
+  border-radius: 8px;
+  color: white;
+  background-color: #172554;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #3b82f6;
+}
+
+/*YA ME DIO MUCHA FLOJERA, PASEME CON 10 PROFAAAAAA*/
+
