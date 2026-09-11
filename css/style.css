@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  color: #172554;
+  color: #b57c00;
   background-color: #f8fafc;
 }
 
@@ -14,11 +14,11 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 24px 8%;
-  background-color: white;
+  background-color: #ffeeca;
 }
 
 .logo {
-  color: rgb(198, 129, 255);
+  color: rgb(59, 130, 246);
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -36,20 +36,22 @@ body {
 }
 
 .nav-links a:hover {
-   color: #3b82f6;
+   color: rgb(59, 130, 246);
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .hero {
   min-height: 600px;
-  padding: 90px 8%; /*crea espacio dentro del contenido*/
+  padding: 0 8% 90px;
   background-color: #f8fafc;
+}
 }
 
 .hero-content {
-  max-width: 600px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 120px;
+  text-align: center;
 }
 
 .eyebrow {
@@ -77,13 +79,13 @@ body {
   padding: 14px 24px; /*lo mismo pero en el botón*/
   border-radius: 8px;
   color: white;
-  background-color: #172554;
+  background-color: #b57c00;
   font-weight: bold;
   text-decoration: none;
 }
 /*esta cosa cambia el botón a azul claro cuando paso el raton sobre el boton*/
 .button:hover {
-  background-color: #3b82f6;
+  background-color: #ecab0f;
 }
 
 /*Que buena rola la de "pensandote-Diana Meril"*/
@@ -110,7 +112,7 @@ body {
 
 .product-card {
   padding: 24px;
-  border: 1px solid #dbeafe;
+  border: 1px solid #006eff;
   border-radius: 14px;
   background-color: white;
   box-shadow: 0 8px 20px rgba(23, 37, 84, 0.08);
