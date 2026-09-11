@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  color: white;
+  color: rgb(198, 129, 255);
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -40,10 +40,12 @@ body {
 }
 
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 600px;
   padding: 90px 8%; /*crea espacio dentro del contenido*/
-  align-items: center;
-  background: linear-gradient();
+  background-color: #f8fafc;
 }
 
 .hero-content {
@@ -58,11 +60,10 @@ body {
   letter-spacing: 2px;
 }
 
-.hero-content h1 {
-  margin: 15px 0;
-  color: #222;
-  font-size: 56px;
-  line-height: 1.1;
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; /*centra la “Nueva colección”, el título, el párrafo y el botón.*/
 }
 
 .hero-content p {
@@ -139,7 +140,7 @@ body {
   margin-bottom: 20px;
   border-radius: 10px;
   color:#172554;
-  background: linear-gradient(); /*crea un degradado azul y morado*/
+  background-color: #ede9fe;
   font-size: 24px;
   font-weight: bold;
 }
