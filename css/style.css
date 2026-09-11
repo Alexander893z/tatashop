@@ -43,7 +43,7 @@ body {
   min-height: 600px;
   padding: 90px 8%; /*crea espacio dentro del contenido*/
   align-items: center;
-  background: linear-gradient(135deg, #ede9fe, #bfdbfe);
+  background: linear-gradient();
 }
 
 .hero-content {
@@ -87,21 +87,21 @@ body {
 
 /*Que buena rola la de "pensandote-Diana Meril"*/
 
-.catalogo-section {
+.catalog-section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 8%;
 }
 
-.catalogo-section h2 {
+.catalog-section h2 {
   margin-bottom: 40px;
   color: #172554;
   font-size: 40px;
 }
 
-.prodcts {
+.products {
   display: grid; /*organiza los productos en una cuadrícula*/
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px; /*esto separa las yajetitas de los productos*/
 }
 
@@ -130,3 +130,17 @@ body {
   color: #3b82f6;
   font-size: 20px;
 }
+
+.product-image {
+  display: flex; /*como en la actividad de la rana esto centra horizontalmente*/
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color:#172554;
+  background: linear-gradient(); /*crea un degradado azul y morado*/
+  font-size: 24px;
+  font-weight: bold;
+}
+
